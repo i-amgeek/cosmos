@@ -8,4 +8,4 @@ except NameError:
     input_text = input("Input your digits: ") # python3
                
 input_number = int(input_text.strip())
-print("Sum of your digits is: {0}".format(sum_of_digits(input_number)))
+print("Sum of your digits is: {sum_of_digits(input_number)}")
